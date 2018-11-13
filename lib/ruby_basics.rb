@@ -14,8 +14,8 @@ def argue(phrase = "I am right and you are wrong!")
 end
 
 def greeting(greeting="Hi there,", *name)
-  puts greeting(name)
-  return greeting + name
+  puts greeting
+  # return greeting
 end
 
 def return_a_value(adverb="Nice")
