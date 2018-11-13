@@ -16,7 +16,7 @@ end
 def greeting(greeting="Hi there,", *name)
   puts greeting
   puts name
-  return "#{greeting} + #{name}"
+  # return "#{greeting} + #{name}"
   #return greeting + name
 end
 
