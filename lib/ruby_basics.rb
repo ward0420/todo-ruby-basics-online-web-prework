@@ -13,7 +13,7 @@ def argue(phrase = "I am right and you are wrong!")
   return phrase
 end
 
-def greeting(greeting, *name)
+def greeting(greeting, name)
   puts greeting
   puts name
   # return "#{greeting} + #{name}"
