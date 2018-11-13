@@ -15,7 +15,7 @@ end
 
 def greeting(greeting="Hi there,", *name)
   puts greeting(name)
-  puts greeting + name
+  return greeting + name
 end
 
 def return_a_value(adverb="Nice")
